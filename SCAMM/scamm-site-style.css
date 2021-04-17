@@ -1,0 +1,106 @@
+
+
+body {
+	background-color: #331a00;
+	background-image: url('images/fantasy-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: overlay;
+	color: #cccccc;
+	font-size: 18px;
+}
+
+.modal-body, .modal-header, .modal-footer {
+	background-color: #331a00;
+	color: #cccccc;
+	
+}
+
+.navmenu {
+	position: sticky;
+	top: 0;
+  	width: 100%;
+}
+
+
+h1, h2, h3 {
+	color: #ff9900;
+	font-family: 'Almendra SC';
+	word-spacing: 5px;
+}
+
+
+h1 {
+	font-size: 64px;
+}
+
+
+.blockquote {
+	font-size: 24px;
+}
+
+		
+.BigGameTitle {
+	line-height: 0.6;
+    top: 50%; 
+    right: 50%;
+	transform: translate(50%,-50%);
+    font-family: 'Almendra SC';
+    font-size: 128px;
+    font-weight: 700;
+    color: #ff9900;
+    text-shadow: 1px 1px 1px #e0c9a6,
+        1px 2px 1px #e0c9a6,
+        1px 3px 1px #e0c9a6,
+        1px 4px 1px #e0c9a6,
+        1px 5px 1px #e0c9a6,
+        1px 6px 1px #e0c9a6,
+        1px 7px 1px #e0c9a6,
+        1px 8px 1px #e0c9a6,
+        1px 9px 1px #e0c9a6,
+        1px 10px 1px #e0c9a6,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+	}
+
+
+.modal {
+	color: black;
+}
+
+.feedbackform {
+	background-color: transparent !important;
+	color: #cccccc !important;
+}
+
+.smallsecrettext {
+	color: #999999;
+	font-size: 14px;
+}
+
+.bignumber {
+	font-family: 'MedievalSharp', cursive;
+	line-height: 0.8;
+	font-size: 70px;
+	color: #ff9900;
+}
+
+td, tr {
+	padding: 10px;
+
+}
+
+.tablecell {
+	vertical-align: middle;
+	border-radius: 25px;
+	border: 5px solid #ff9900;
+	padding: 20px;
+
+}
+
+.cccccc {
+	color: #cccccc;
+}
