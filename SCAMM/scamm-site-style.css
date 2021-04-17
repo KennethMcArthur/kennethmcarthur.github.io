@@ -14,7 +14,7 @@ body {
 .modal-body, .modal-header, .modal-footer {
 	background-color: #331a00;
 	color: #cccccc;
-	
+
 }
 
 .navmenu {
@@ -40,12 +40,9 @@ h1 {
 	font-size: 24px;
 }
 
-		
+
 .BigGameTitle {
-	line-height: 0.6;
-    top: 50%; 
-    right: 50%;
-	transform: translate(50%,-50%);
+	line-height: 0.8;
     font-family: 'Almendra SC';
     font-size: 128px;
     font-weight: 700;
@@ -103,4 +100,19 @@ td, tr {
 
 .cccccc {
 	color: #cccccc;
+}
+
+.imgsize15 {
+	width: 15%;
+	height: 15%;
+}
+
+.imgsize20 {
+	width: 20%;
+	height: 20%;
+}
+
+.imgsize25 {
+	width: 25%;
+	height: 25%;
 }
