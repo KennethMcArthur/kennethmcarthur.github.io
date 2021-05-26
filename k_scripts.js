@@ -1,11 +1,11 @@
 
-// COLLAPSABLE SCRIPT
+// COLLAPSABLE FUNCTIONS SCRIPT
 let coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    //state of che parenthesis
+    //state machine of the parenthesis
     this.classList.toggle("par-opened");
 
     let openpar = this.querySelector("span.open-par");
@@ -31,9 +31,10 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-// END OF COLLAPSABLE SCRIPT
 
-// LOGO MOUSEOVER SCRIPT
+
+
+// LOGO MOUSEOVER EVENTS
 let logolist = document.getElementsByClassName("logo");
 var logonamefield = document.getElementById("logoname");
 
@@ -46,12 +47,11 @@ for (i = 0; i < logolist.length; i++) {
     logonamefield.innerHTML = "Here's the languages I use:";
   });
 }
-// END OF LOGO MOUSEOVER SCRIPT
+
 
 
 // WINDOW RESIZE EVENT
 window.addEventListener("resize", function() {
-  //cerco tutti i collassabili aperti (cioè cone max-height diversa da 0) e ri-setto l'altezza
   contentlist = document.getElementsByClassName("content");
   for (i = 0; i < contentlist.length; i++) {
     if (contentlist[i].style.maxHeight != 0) {
@@ -59,4 +59,3 @@ window.addEventListener("resize", function() {
     }
   }
 });
-// END OF WINDOW RESIZE EVENT
