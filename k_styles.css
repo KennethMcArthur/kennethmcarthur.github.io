@@ -6,6 +6,8 @@
   --collbg_color: rgba(39,39,39, 0.95);
   --collborder_color: #FF652F;
   --basetext_color: #d9d9d9;
+
+  color-scheme: light only;
 }
 
 
